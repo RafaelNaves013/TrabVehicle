@@ -16,6 +16,7 @@ public class CustomerDTO {
 
     private int id;
 
+
     @NotBlank
     @Size(min = 1, max = 50)
     private String firstName;
